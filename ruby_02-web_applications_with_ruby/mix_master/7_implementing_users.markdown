@@ -61,7 +61,7 @@ module OmniAuth
       option :client_options, {
         site:          'https://api.spotify.com/v1/',
         authorize_url: 'https://accounts.spotify.com/authorize',
-        token_url:     'https://accounts.spotify.com/api/token',
+        token_url:     'https://accounts.spotify.com/api/token'
       }
 
       def info
